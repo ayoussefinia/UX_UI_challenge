@@ -180,7 +180,7 @@ body {
 
 .choose-flavors-link {
   width: 80%;
-  height: 100px;
+  min-height: 60px;
   text-decoration: none;
   background: rgb(96,54,124);
   color: white;
@@ -188,9 +188,10 @@ body {
   justify-content:  center;
   align-items: center;
   border-radius: 2px;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
   margin-top: 1.5rem;
+  
 }
 
 .choose-flavors-link:hover {
@@ -211,6 +212,6 @@ body {
 }
 
 .choose-flavors-middle {
-  height: 110px;
+  min-height: 70px;
 }
 
